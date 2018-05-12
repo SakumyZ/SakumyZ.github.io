@@ -4,7 +4,7 @@ tile: markdown常用语法汇总
 date: 2018-5-12
 description: 这算是我个人在学习markdown语法时做的笔记吧
 tag: 博客
---- 
+---
 
 ## 标题样式
 总共六级标题，建议在井号后加一个空格，这是最标准的 Markdown 语法。
