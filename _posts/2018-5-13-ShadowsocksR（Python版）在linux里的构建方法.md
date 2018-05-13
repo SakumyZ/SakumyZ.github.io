@@ -9,7 +9,7 @@ tag: 博客
 # Shadowsocks 在 linux 操作系统中的构建：python 版
 
 ## 写在前面：本人的电脑为 deepin15.5 操作系统，基于debian ， 其他的发行版本，按照自行的安装命令灵活修改便可。
-![screenfetch](../images/ssr/screenfetch.png)
+![screenfetch](https://github.com/SakumyZ/sakumyz.github.io/blob/master/images/ssr/screenfetch.png)
 
 ## 1.安装 git
 
