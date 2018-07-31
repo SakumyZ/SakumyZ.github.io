@@ -13,7 +13,7 @@ tag: 博客
 
 ### 1.安装 git
 
-git是Git是一个开源的分布式版本控制系统，内容管理系统。安装git是为了在github上把shadowsocks （以下简称为ssr）clone到我们本地来，这是第一步也算最重要的一步。
+git是Git是一个开源的分布式版本控制系统，内容管理系统。安装git是为了在github上把ShadowSocksR （以下简称为ssr）clone到我们本地来，这是第一步也算最重要的一步。
 代码：
 
 ```
