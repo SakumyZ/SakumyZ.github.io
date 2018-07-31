@@ -9,7 +9,7 @@ tag: 博客
 # Shadowsocks 在 linux 操作系统中的构建：python 版
 
 ## 写在前面：本人的电脑为 deepin15.5 操作系统，基于debian ， 其他的发行版本，按照自行的安装命令灵活修改便可。
-![screenfetch](../images/ssr/screenfetch.png)
+![screenfetch](/images/ssr/screenfetch.png)
 
 ## 1.安装 git
 
@@ -73,11 +73,11 @@ alias ssr_start = 'cd ~/shadowsocksr/shadowsocks;python local.py -c /etc/shadows
 ## 在 chrome 安装 SwitchyOmega 插件
 [SwitchyOmega github传送门](https://github.com/FelisCatus/SwitchyOmega/releases)
 下载 `SwitchyOmega_Chromium.crx`
-![SwitchyOmega_Chromium.crx](../images/ssr/SwitchyOmega.png)
+![SwitchyOmega_Chromium.crx](/images/ssr/SwitchyOmega.png)
 在 chrome 里将插件加进去，打开更多工具，拓展程序，加载已解压的拓展程序
 
 ## 配置 SwitchyOmega
-![2](../images/ssr/proxy.png)
+![2](/images/ssr/proxy.png)
 
 ## 结语
 第一次配置 ssr 时配置了将近三天才成功，虽然网上的教程很多，我按着一个又一个的教程试，都是输入启动命令的时候报错，他们的启动命令在最后都加了 `-d start` 我也是无意间去掉了这个参数，结果一次成功。成功了真的很开心。
