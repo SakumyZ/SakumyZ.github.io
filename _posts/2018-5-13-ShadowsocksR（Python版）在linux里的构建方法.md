@@ -16,19 +16,19 @@ tag: 博客
 git是Git是一个开源的分布式版本控制系统，内容管理系统。安装git是为了在github上把ShadowSocksR （以下简称为ssr）clone到我们本地来，这是第一步也算最重要的一步。
 代码：
 
-```
+~~~shell
 sudo apt-get install git
-```
+~~~
 可能会让你选择版本，按照提升选择相应的版本就可以了。
 
 ### 2. 利用 git 将 ssr 的源代码 clone 至本机
 
 在clone之前，先想好将文件clone至哪个文件夹，这里就克隆至我自己的username文件夹下。
 
-```
+~~~shell
 cd ~
 git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
-```
+~~~
 
 命令执行完毕后会在当前目录(/home/username)新建一个shadowsocksr目录。
 
@@ -36,9 +36,9 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
 #### 打开配置文件
 代码：
 
-```
+~~~shell
 sudo vi /etc/shadowsocks.json
-```
+~~~
 
 #### 将自己代理商的 json 文件替换上去
 
@@ -47,9 +47,9 @@ sudo vi /etc/shadowsocks.json
 ### 4.切换至 /shadowsocksr/shadowsocks/ 目录
 然后运行：
 
-```
+~~~shell
 python local.py -c /etc/shadowsocks.json
-```
+~~~
 
 ### 5.关闭 ssr
 在刚刚 ssr 开启成功的页面按 `Ctrl + C`
@@ -59,14 +59,14 @@ python local.py -c /etc/shadowsocks.json
 
 运行：
 
-```
+~~~shell
 sudo vi ~/.bashrc
-```
+~~~
 
 添加：
-```
+~~~shell
 alias ssr_start = 'cd ~/shadowsocksr/shadowsocks;python local.py -c /etc/shadowsocks.json'
-```
+~~~
 保存退出，现在你就可以使用 ssr_start 这个命令来启动 ssr 了
 
 
