@@ -1,5 +1,5 @@
 ---
-*layout*: post
+layout: post
 tile: 2018-10-31Navicat连接服务器Mysql出现的问题
 date: 2018-10-30
 description: 今天在用navicat连接腾讯云服务器时，出现了一系列的问题，也根据网上的解答成功连接上了服务器，故来做个总结。
