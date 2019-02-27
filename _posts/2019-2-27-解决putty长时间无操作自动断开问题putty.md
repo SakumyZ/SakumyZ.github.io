@@ -22,7 +22,7 @@ tag: 博客
 
 在Connection里面有个Seconds between keepaliaves。这里就是每间隔指定的秒数，就给服务器发送一个空的数据包，来保持连接。以免登录的主机那边在长时间没接到数据后，会自动断开SSH的连接。默认是0，就是不打开这个功能。 
 
-![putty](/images/putty.png)
+![putty](/images/putty/putty.png)
 
 这就是最简单的方法
 
